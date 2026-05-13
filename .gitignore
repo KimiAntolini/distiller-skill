@@ -1,0 +1,19 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temp
+*.tmp
+*.bak
+~*
+
+# IDE
+.vscode/
+.idea/
+
+# Distillation cache (optional, keep if you want to version distilled outputs)
+# distilled/
+
+# Dependencies (if any added later)
+node_modules/

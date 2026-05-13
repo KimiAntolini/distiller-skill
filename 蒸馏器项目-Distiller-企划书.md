@@ -2,7 +2,7 @@
 
 > **版本**：V1.0  
 > **状态**：企划阶段  
-> **仓库地址**：[GitHub — distiller-skill](https://github.com/anomalyco/distiller-skill)  
+> **仓库地址**：[GitHub — distiller-skill](https://github.com/KimiAntolini/distiller-skill)  
 > **Skill.sh 下载链接**：[https://skill.sh/distiller](https://skill.sh/distiller)
 
 ---

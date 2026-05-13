@@ -21,7 +21,7 @@ skill install distiller
 ### 方式二：GitHub 克隆
 
 ```bash
-git clone https://github.com/anomalyco/distiller-skill.git
+git clone https://github.com/KimiAntolini/distiller-skill.git
 ```
 
 将 `distiller-skill` 目录放入你的 skills 目录即可。

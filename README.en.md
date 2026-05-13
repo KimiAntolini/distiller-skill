@@ -10,6 +10,23 @@
 
 Distiller is an AI-powered automation tool. You provide the name of a notable figure, and it searches the web for all publicly available information, deeply distills and integrates the data, and produces a ready-to-use character simulation Skill package — enabling AI to realistically simulate that figure in conversation and thought.
 
+### How It Works
+
+```
+Input name → Disambiguate → Web search → Distill & integrate → Generate Skill + sources
+```
+
+Each generated Skill includes **13 modules** covering personality, language style, behavioral patterns, works, biography, philosophical framework, relationship networks, anecdotes, posthumous evaluations, and more. The result is both historically faithful and conversationally natural.
+
+### Distilled Samples
+
+| Figure | Era | Identity | Skill Size |
+|--------|-----|----------|------------|
+| **Stalin** | 1878–1953 | Soviet supreme leader, revolutionary | 356 lines |
+| **Bai Juyi** | 772–846 | Tang Dynasty poet, literary reformer | 365 lines |
+
+> Spanning East and West, ancient and modern, these two samples validate Distiller's ability to handle both 20th-century political figures and classical literary masters. Each Skill includes a complete [sources.md](./distilled/) reference list — every fact is traceable.
+
 ## Quick Start
 
 ### Option 1: Install via Skill.sh

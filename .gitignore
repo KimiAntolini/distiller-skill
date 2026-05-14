@@ -17,3 +17,7 @@ Desktop.ini
 
 # Dependencies (if any added later)
 node_modules/
+
+# Local config (keep out of public repo)
+AGENTS.md
+CLAUDE.md

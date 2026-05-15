@@ -45,6 +45,22 @@ platforms:
 
 用户输入一个名人姓名，或说"蒸馏 XX"、"生成 XX 的 skill"。
 
+**步骤 0.1：读取本地 Skills 库**
+
+在正式开始任何操作之前，必须先读取本地 skills 目录，了解当前环境中已安装的所有可用 skill。这有助于：
+- 利用 `skill-creator` 校验和优化生成的 skill
+- 借鉴已有的人物 skill 作为格式与质量参考
+- 借助 `superpowers` 规范工作流体系
+- 避免重复蒸馏本地已存在的人物 skill
+
+读取方式：
+- **Claude Code**：列出 `~/.agents/skills/` 或项目的 skills 目录
+- **OpenCode**：使用 `skill` 工具列出已安装 skill
+- 识别并记录所有可用 skill 的名称、描述与能力
+
+**步骤 0.2：确认无重复**
+若本地已存在同名人物 skill，提示用户是否覆盖或更新。
+
 ---
 
 ### 阶段一：人物检索与消歧
